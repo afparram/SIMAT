@@ -1,1 +1,82 @@
-/credenciales, api key y nodesmodules
+# ============================================
+# Python
+# ============================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+pipenv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Spyder
+.spyderproject
+.spyproject
+
+# ============================================
+# Credenciales y Configuración
+# ============================================
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+secrets.json
+
+# AWS
+.aws/
+credentials
+
+# Configuraciones sensibles
+config/local.py
+config/secrets.yaml
+*.key
+*.pem
+
+# ============================================
+# Logs y Temporales
+# ============================================
+*.log
+logs/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
